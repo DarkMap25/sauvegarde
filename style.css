@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0d0d0d;
+  color: #f0f0f0;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+h1 {
+  font-family: 'UnifrakturCook', cursive;
+  color: #e60000;
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 0;
+  text-shadow: 0 0 5px #e60000;
+}
+
+.tagline {
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 0;
+  color: #ccc;
+}
+
+.logo {
+  display: block;
+  margin: 20px auto 10px;
+  width: 100px;
+}
+
+.intro {
+  max-width: 800px;
+  margin: 30px auto;
+  text-align: center;
+  line-height: 1.6;
+  font-size: 1.1em;
+  color: #dddddd;
+}
+
+#map {
+  height: 75vh;
+  margin: 0 auto;
+  max-width: 1000px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #e60000;
+  z-index: 1;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #777;
+}
+
+.emoji-marker {
+  font-size: 22px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 30px;
+  height: 30px;
+  color: white;
+  box-shadow: 0 0 5px red;
+  transition: transform 0.2s ease;
+}
+.emoji-marker:hover {
+  transform: scale(1.3);
+}
